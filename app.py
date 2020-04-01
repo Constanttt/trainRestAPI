@@ -26,4 +26,4 @@ class CalculerPrix(Resource):
 
 api.add_resource(CalculerPrix, '/calculerPrix')
 
-app.run(debug=True)
+app.run()
