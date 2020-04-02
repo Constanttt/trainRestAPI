@@ -25,5 +25,3 @@ class CalculerPrix(Resource):
         return {'prix': prix}
 
 api.add_resource(CalculerPrix, '/calculerPrix')
-
-app.run()
